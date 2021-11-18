@@ -7,6 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## How to use ?
+
+git clone repo.
+composer update --no-scripts  or composer install.
+php artisan key:generate .
+rename example.env to .env.
+create new bot from botFather.
+Create new telegram chanel and add bot as administrator
+Add to env file where written  TELEGRAM_CHAT_ID your telegram chanel id (and when you add your chanel id add fron your id -100 for example your chanel id is 12346798 and you should write like -10012346798).
+And all logical opiration written in clas ToTelegram.
+
+ENJOY !!!
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
